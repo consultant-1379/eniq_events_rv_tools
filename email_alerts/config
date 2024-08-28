@@ -1,0 +1,26 @@
+##########################
+#Config fields
+##########################
+#When % root usage on  any server in deployment is above this email will send
+rootFileSystemLoadTolerance = 85
+
+#When % root usage on any NAS mount is above this, email will send
+NASLoadTolerance = 60
+
+#When % root usage on any ZFS mount is above this, email will send
+ZFSLoadTolerance = 60
+
+#Server configured to send mails. Must have SMTP running, and accept ssh connections
+#to root user from co-ordinator. Can be the server this is running on
+mailServer = atrcxb2902
+
+#Co-ordinator server (i.e the server this is running on)
+coordServer = atrcxb2902
+
+#Deployment name (will be included in message title, should be one word)
+deploymentName = Softbank
+
+#Max time in seconds to wait on commands accessing data on NAS or over a network (if NAS is down commands may hang indefinitely).
+#This is also used as a general timeout when running some local commands
+networkCommandTimeout = 6
+##########################

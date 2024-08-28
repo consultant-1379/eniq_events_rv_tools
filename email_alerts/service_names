@@ -1,0 +1,35 @@
+#
+# ENIQ service list
+# Format is:
+# <ip_address>::<hostname>::<service>::<service_group>
+#
+10.45.195.193::atrcxb2902::controlzone
+10.45.196.219::atrcxb2424::dwh_reader_1
+10.45.195.199::atrcxb2904::dwh_reader_2
+10.45.195.211::atrcxb2908::dwh_reader_3
+10.45.195.193::atrcxb2902::dwhdb
+10.45.195.205::atrcxb2906::ec_1
+10.45.195.208::atrcxb2907::ec_2
+10.45.195.205::atrcxb2906::ec_ltees_1
+10.45.195.205::atrcxb2906::ec_ltees_2
+10.45.195.205::atrcxb2906::ec_ltees_3
+10.45.195.205::atrcxb2906::ec_ltees_4
+10.45.195.208::atrcxb2907::ec_sgeh_1
+10.45.195.193::atrcxb2902::engine
+10.44.91.174::events_oss_1::events_oss_1
+10.45.195.196::events_oss_3::events_oss_3
+10.45.195.202::atrcxb2905::glassfish
+10.45.195.193::atrcxb2902::ldapserver
+10.45.195.193::atrcxb2902::licenceservice
+10.45.56.92::nas1::nas1
+10.45.56.93::nas2::nas2
+10.45.56.94::nas3::nas3
+10.45.56.95::nas4::nas4
+10.45.56.96::nas5::nas5
+10.45.56.97::nas6::nas6
+10.45.56.98::nas7::nas7
+10.45.56.99::nas8::nas8
+10.45.56.105::nasconsole::nasconsole
+10.45.195.193::atrcxb2902::repdb
+10.45.195.193::atrcxb2902::scheduler
+10.45.195.193::atrcxb2902::webserver

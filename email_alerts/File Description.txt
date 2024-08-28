@@ -1,0 +1,14 @@
+/additional_scripts/ -directory containing additional scripts to execute
+/perl/ - directory containing all perl scripts and output
+	/perl/checkServers.pl - main script of the system
+	/perl/kill_proc.pl - script used to kill processes safely. Needs to be external to checkServers.pl.
+	/perl/parsingFuncs.pm - perl module which defines collection of text parsing functions
+	/perl/ServiceEntry.pm - class definition for ServiceEntry objects
+	/perl/messages_* - these files are used to store previously mailed dmesg output, to prevent duplication. Not a problem 
+				if they are empty. These will not bloat - they only store data from the previous 48 hours.
+/checkServers.sh - wrapper for Perl script, should be scheduled on cron
+/config - defines configuration values used by checkServers.pl
+/mailList.txt - defines mail recipients
+/services_names - (if present) copied from /eniq/sw/conf/
+/services_config - defines the services that should be running on servers
+			

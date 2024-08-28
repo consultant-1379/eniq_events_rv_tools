@@ -1,0 +1,176 @@
+Mon Jul 28 08:00:00 IST 2014
+Starting checks
+Checking mail service
+Probing server atrcxb2902
+Server atrcxb2902 is online
+Mail service running on atrcxb2902
+	Checking dmesg on atrcxb2902
+		Finished checking messages file. Messages to report, sending mail
+	Finished dmesg check on atrcxb2902
+Copying service names file
+Old service names file deleted
+ps: no controlling terminal
+File copied
+Reading service settings
+Starting server check
+Probing server atrcxb2902
+Server atrcxb2902 is online
+Checking atrcxb2902..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/rmiregistry|svc:/eniq/licmgr|svc:/eniq/connectd|svc:/eniq/repdb|svc:/eniq/dwhdb|svc:/eniq/webserver|svc:/eniq/engine|svc:/eniq/scheduler|svc:/eniq/controlzone" | egrep -v online
+	All services on atrcxb2902 ok
+	Root load on atrcxb2902 ok (73%)
+	ZFS load on eniq_coordinator_pool at atrcxb2902 ok (1%)
+	ZFS load on eniq_sp_1 at atrcxb2902 ok (1%)
+..Finished checking atrcxb2902
+Probing server atrcxb2424
+Server atrcxb2424 is online
+Checking atrcxb2424..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/dwh_reader" | egrep -v online
+	All services on atrcxb2424 ok
+	Root load on atrcxb2424 ok (72%)
+	ZFS load on eniq_iqr_pool at atrcxb2424 ok (1%)
+	ZFS load on eniq_sp_1 at atrcxb2424 ok (1%)
+	Checking dmesg on atrcxb2424
+		Finished checking messages file. No messages to report, not sending mail
+	Finished dmesg check on atrcxb2424
+..Finished checking atrcxb2424
+Probing server atrcxb2904
+Server atrcxb2904 is online
+Checking atrcxb2904..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/dwh_reader" | egrep -v online
+	All services on atrcxb2904 ok
+	Root load on atrcxb2904 ok (70%)
+	ZFS load on eniq_iqr_pool at atrcxb2904 ok (1%)
+	ZFS load on eniq_sp_1 at atrcxb2904 ok (1%)
+	Checking dmesg on atrcxb2904
+		Finished checking messages file. Messages to report, sending mail
+	Finished dmesg check on atrcxb2904
+..Finished checking atrcxb2904
+Probing server atrcxb2908
+Server atrcxb2908 is online
+Checking atrcxb2908..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/dwh_reader" | egrep -v online
+	All services on atrcxb2908 ok
+	Root load on atrcxb2908 ok (71%)
+	ZFS load on eniq_iqr_pool at atrcxb2908 ok (1%)
+	ZFS load on eniq_sp_1 at atrcxb2908 ok (1%)
+	Checking dmesg on atrcxb2908
+		Finished checking messages file. No messages to report, not sending mail
+	Finished dmesg check on atrcxb2908
+..Finished checking atrcxb2908
+Probing server atrcxb2906
+Server atrcxb2906 is online
+Checking atrcxb2906..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/connectd|svc:/eniq/dbmon|svc:/eniq/ec" | egrep -v online
+	All services on atrcxb2906 ok
+	Root load on atrcxb2906 ok (65%)
+	ZFS load on eniq_mz_pool at atrcxb2906 ok (1%)
+	Checking dmesg on atrcxb2906
+		Finished checking messages file. No messages to report, not sending mail
+	Finished dmesg check on atrcxb2906
+..Finished checking atrcxb2906
+Probing server atrcxb2907
+Server atrcxb2907 is online
+Checking atrcxb2907..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/connectd|svc:/eniq/dbmon|svc:/eniq/ec" | egrep -v online
+	All services on atrcxb2907 ok
+	Root load on atrcxb2907 ok (65%)
+	ZFS load on eniq_mz_pool at atrcxb2907 ok (1%)
+	ZFS load on eniq_sp_1 at atrcxb2907 ok (1%)
+	Checking dmesg on atrcxb2907
+		Finished checking messages file. No messages to report, not sending mail
+	Finished dmesg check on atrcxb2907
+..Finished checking atrcxb2907
+Probing server atrcxb2905
+Server atrcxb2905 is online
+Checking atrcxb2905..
+	Online services query: svcs -a | egrep -i "svc:/eniq/esm|svc:/eniq/glassfish|svc:/eniq/postgresql_og" | egrep -v online
+	All services on atrcxb2905 ok
+	Root load on atrcxb2905 ok (66%)
+	ZFS load on eniq_sp_1 at atrcxb2905 ok (1%)
+	ZFS load on eniq_ui_pool at atrcxb2905 ok (1%)
+	Checking dmesg on atrcxb2905
+		Finished checking messages file. No messages to report, not sending mail
+	Finished dmesg check on atrcxb2905
+..Finished checking atrcxb2905
+ps: no controlling terminal
+	NAS load on nas1:/vx/events1-admin at atrcxb2902 ok (9%)
+	NAS load on nas1:/vx/events1-backup at atrcxb2902 ok (1%)
+	NAS load on nas1:/vx/events1-etldata_-04 at atrcxb2902 ok (5%)
+	NAS load on nas1:/vx/events1-etldata_-12 at atrcxb2902 ok (5%)
+	NAS load on nas1:/vx/events1-eventdata-00 at atrcxb2902 ok (1%)
+	NAS load on nas1:/vx/events1-eventdata-08 at atrcxb2902 ok (5%)
+	NAS load on nas1:/vx/events1-home at atrcxb2902 not ok, sending mail
+	NAS load on nas1:/vx/events1-pushdata-00 at atrcxb2902 ok (7%)
+	NAS load on nas1:/vx/events1-pushdata-08 at atrcxb2902 ok (7%)
+	NAS load on nas1:/vx/events1-sql_anywhere at atrcxb2902 ok (22%)
+	NAS load on nas1:/vx/events1-upgrade at atrcxb2902 ok (6%)
+	NAS load on nas2:/vx/events1-etldata at atrcxb2902 ok (4%)
+	NAS load on nas2:/vx/events1-etldata_-06 at atrcxb2902 ok (5%)
+	NAS load on nas2:/vx/events1-etldata_-14 at atrcxb2902 ok (5%)
+	NAS load on nas2:/vx/events1-eventdata-02 at atrcxb2902 ok (1%)
+	NAS load on nas2:/vx/events1-eventdata-10 at atrcxb2902 ok (5%)
+	NAS load on nas2:/vx/events1-pushdata-02 at atrcxb2902 ok (7%)
+	NAS load on nas2:/vx/events1-pushdata-10 at atrcxb2902 ok (7%)
+	NAS load on nas2:/vx/events1-reference at atrcxb2902 ok (8%)
+	NAS load on nas2:/vx/events1-rejected at atrcxb2902 ok (8%)
+	NAS load on nas2:/vx/events1-sybase_iq at atrcxb2902 ok (48%)
+	NAS load on nas3:/vx/events1-etldata_-00 at atrcxb2902 ok (6%)
+	NAS load on nas3:/vx/events1-etldata_-08 at atrcxb2902 ok (5%)
+	NAS load on nas3:/vx/events1-eventdata-04 at atrcxb2902 ok (5%)
+	NAS load on nas3:/vx/events1-eventdata-12 at atrcxb2902 ok (5%)
+	NAS load on nas3:/vx/events1-pushdata-04 at atrcxb2902 ok (7%)
+	NAS load on nas3:/vx/events1-pushdata-12 at atrcxb2902 ok (7%)
+	NAS load on nas4:/vx/events1-etldata_-02 at atrcxb2902 ok (4%)
+	NAS load on nas4:/vx/events1-etldata_-10 at atrcxb2902 ok (5%)
+	NAS load on nas4:/vx/events1-eventdata-06 at atrcxb2902 ok (5%)
+	NAS load on nas4:/vx/events1-eventdata-14 at atrcxb2902 ok (5%)
+	NAS load on nas4:/vx/events1-pushdata-06 at atrcxb2902 ok (7%)
+	NAS load on nas4:/vx/events1-pushdata-14 at atrcxb2902 ok (7%)
+	NAS load on nas5:/vx/events1-archive at atrcxb2902 ok (12%)
+	NAS load on nas5:/vx/events1-etldata_-05 at atrcxb2902 ok (5%)
+	NAS load on nas5:/vx/events1-etldata_-13 at atrcxb2902 ok (5%)
+	NAS load on nas5:/vx/events1-eventdata-01 at atrcxb2902 ok (1%)
+	NAS load on nas5:/vx/events1-eventdata-09 at atrcxb2902 ok (5%)
+	NAS load on nas5:/vx/events1-mediation_inter at atrcxb2902 ok (12%)
+	NAS load on nas5:/vx/events1-mediation_sw at atrcxb2902 ok (11%)
+	NAS load on nas5:/vx/events1-northbound at atrcxb2902 ok (4%)
+	NAS load on nas5:/vx/events1-pushdata-01 at atrcxb2902 ok (7%)
+	NAS load on nas5:/vx/events1-pushdata-09 at atrcxb2902 ok (7%)
+	NAS load on nas5:/vx/events1-snapshot at atrcxb2902 ok (1%)
+	NAS load on nas6:/vx/events1-etldata_-07 at atrcxb2902 ok (5%)
+	NAS load on nas6:/vx/events1-etldata_-15 at atrcxb2902 ok (5%)
+	NAS load on nas6:/vx/events1-eventdata-03 at atrcxb2902 ok (1%)
+	NAS load on nas6:/vx/events1-eventdata-11 at atrcxb2902 ok (5%)
+	NAS load on nas6:/vx/events1-glassfish at atrcxb2902 ok (21%)
+	NAS load on nas6:/vx/events1-log at atrcxb2902 ok (27%)
+	NAS load on nas6:/vx/events1-opengeo_sw at atrcxb2902 ok (42%)
+	NAS load on nas6:/vx/events1-pushdata-03 at atrcxb2902 ok (7%)
+	NAS load on nas6:/vx/events1-pushdata-11 at atrcxb2902 ok (7%)
+	NAS load on nas6:/vx/events1-sentinel at atrcxb2902 ok (12%)
+	NAS load on nas6:/vx/events1-sw at atrcxb2902 ok (31%)
+	NAS load on nas7:/vx/events1-etldata_-01 at atrcxb2902 ok (3%)
+	NAS load on nas7:/vx/events1-etldata_-09 at atrcxb2902 ok (5%)
+	NAS load on nas7:/vx/events1-eventdata-05 at atrcxb2902 ok (5%)
+	NAS load on nas7:/vx/events1-eventdata-13 at atrcxb2902 ok (5%)
+	NAS load on nas7:/vx/events1-pushdata-05 at atrcxb2902 ok (7%)
+	NAS load on nas7:/vx/events1-pushdata-13 at atrcxb2902 ok (7%)
+	NAS load on nas8:/vx/events1-etldata_-03 at atrcxb2902 ok (3%)
+	NAS load on nas8:/vx/events1-etldata_-11 at atrcxb2902 ok (5%)
+	NAS load on nas8:/vx/events1-eventdata-07 at atrcxb2902 ok (5%)
+	NAS load on nas8:/vx/events1-eventdata-15 at atrcxb2902 ok (5%)
+	NAS load on nas8:/vx/events1-pushdata-07 at atrcxb2902 ok (7%)
+	NAS load on nas8:/vx/events1-pushdata-15 at atrcxb2902 ok (7%)
+Finished server check
+Mail sent to:
+	paul.pearson@ericsson.com
+
+	yao.e.zhang@ericsson.com
+
+	anand.sachdev@ericsson.com
+
+	daniel.rogers@ericsson.com
+	
+Checks finished
+Started at: Mon Jul 28 08:00:00 IST 2014
+Finished at: Mon Jul 28 08:02:42 IST 2014
